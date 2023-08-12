@@ -1,0 +1,38 @@
+{
+  "manifest_version": 2,
+  "name": "阿勇学前端",
+  "version": "3.0",
+  "description": "关注微信公众号:阿勇学前端,B站自动关注、点赞、留言插件",
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "Ayong.png",
+      "48": "Ayong.png",
+      "128": "Ayong.png"
+    }
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "icons": {
+    "16": "Ayong.png",
+    "48": "Ayong.png",
+    "128": "Ayong.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "ayong.js"
+      ]
+    }
+  ]
+}
