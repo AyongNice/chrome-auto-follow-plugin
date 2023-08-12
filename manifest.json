@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "阿勇学前端",
   "version": "3.0",
-  "description": "关注微信公众号:阿勇学前端,B站自动关注、点赞、留言插件",
+  "description": "关注微信公众号:阿勇学前端,B站自动关注、点赞、留言、视频自动楼到底插件",
   "permissions": [
     "activeTab"
   ],
