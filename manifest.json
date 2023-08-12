@@ -28,7 +28,7 @@
   "content_scripts": [
     {
       "matches": [
-        "*://*.search.bilibili.com/*"
+        "*://*.www.bilibili.com/*"
       ],
       "js": [
         "ayong.js"
