@@ -1,6 +1,6 @@
-setTimeout(function () {
+let time1= setTimeout(function () {
     var observer = new MutationObserver(function (mutationsList, observer) {
-        setTimeout(() => {
+        let time2= setTimeout(() => {
             var vidoFollowButton = document.querySelector('.follow-btn-inner');
             var videoLike = document.querySelector('.video-like');
             var video = document.getElementsByTagName('video');
